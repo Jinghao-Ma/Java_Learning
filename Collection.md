@@ -38,11 +38,11 @@
 **在List中查找元素**
 
 - List的实现类通过元素的`equals`方法比较两个元素
-- 放入的元素必须正确覆写`equals`方法
-  - JDK提供的`String、Integer`等已经覆写了`equals`方法
+- 放入的元素必须正确重写`equals`方法
+  - JDK提供的`String、Integer`等已经重写了`equals`方法
 - 编写`equals`方法可借助`Objects.equals()`来判断
 
-**如果不在List中查找元素则不必覆写equals方法**
+**如果不在List中查找元素则不必重写equals方法**
 
 
 
