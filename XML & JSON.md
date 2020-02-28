@@ -74,7 +74,7 @@ Element root = doc.getDocumentElement();
 
 - 将XML解析为DOM
 - 可在内存中完整表示XML数据结构
-- ==解析速度慢，内存占用大==
+- <font color="red">解析速度慢，内存占用大</font>
 
 ##### Code Demo
 
@@ -126,7 +126,7 @@ public class DOM_demo {
 **SAX解析XML**
 
 - 一种流式解析XML的API
-- ==通过事件触发，速度快==
+- <font color="red">通过事件触发，速度快</font>
 - 调用方通过回调方法获得数据
 
 ##### Code Demo
